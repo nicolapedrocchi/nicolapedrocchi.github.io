@@ -11,35 +11,42 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Robotics, Univeristy of Brescia, February, 14th, 2008 
+* M.S. in Mechanical Engineering, University of Brescia, October, 28th, 2004
+
+
+Since 2023 Member of the CNR-STIIMA Board
+               Associate Editor, Robotics and Computer---Integrated Manufacturing, Elsevier, IF 10.14, 3rd in Robotics Category
+    
+
+
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Since 2023: 
+  * Member of the CNR-STIIMA Board
+  * **Associate Editor**, Robotics and Computer---Integrated Manufacturing, Elsevier, IF 10.14, 3rd in Robotics Category
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Since 2022: Member of the Board of Directors of the National Ph.D. School on Robotics and Intelligent Machines.
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Since 2021: 
+  * **Senior Researcher** - CNR-STIIMA.
+  * **Head of the PERFORM Lab** - "Personal Robotics for Manufacturing" Laboratory of CNR-STIIMA.
+  * **Scientific Director of the IINFORM Lab** - "Intelligent Industrial Robotics for Manufacturing" Laboratory of CNR-STIIMA.
+
+* 2021--2022 Member of the Board of Directors of the National Ph.D. School of Italy on AI.
+
+* Since 2020 **Scientific Director of the CARI Lab** - "Control and Automation for Industrial Robotics", Joint Laboratory of CNR and the University of Brescia.
+
+* 2018--2021 **Researcher** - CNR-STIIMA. Head of Robot Motion Control and Robotized Processes Laboratory.
+
+* 2014--2015 **Visiting Researcher** - Université de Laval, Québec City, Québec, Canada.
+
+* 2011--2018 **Researcher** - CNR-ITIA, Member of the Intelligent Robots and Autonomous Systems
+
+* 2006--2011 **Research Fellow** - CNR-ITIA, Member of the Intelligent Robots and Autonomous Systems
+
+* 2007--2008 **Post-Doc Researcher** - Università degli Studi di Brescia, Italy.
 
 Publications
 ======
@@ -58,7 +65,9 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Funded Projects
 ======
-* Currently signed in to 43 different slack teams
+  <ul>{% for post in site.projects reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
