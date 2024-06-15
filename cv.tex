@@ -1,0 +1,320 @@
+\documentclass[a4paper,9pt]{extarticle}
+\usepackage{lmodern}
+\usepackage[a4paper, total={6in, 9.5in}]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{csquotes}
+\usepackage{floatrow}
+\usepackage{fontawesome}
+\usepackage{enumitem}
+
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{calc} 
+\usepackage{currfile}
+\usepackage{eurosym}
+
+%\usepackage{tabularx}
+\usepackage{xltabular}
+\usepackage{boldline} %
+
+\usepackage[
+  backend=biber,
+  maxbibnames=99,
+  refsegment=section,
+  defernumbers=true,
+  alldates=iso,
+  seconds=true,
+  sorting=ydnt ]{biblatex}
+
+
+\usepackage[table, x11names]{xcolor}
+\definecolor{light-gray}{HTML}{E5E4E2}
+\definecolor{light-cyan}{HTML}{E0FFFF}
+\definecolor{light-blue}{HTML}{ADD8E6}
+\definecolor{light-green}{HTML}{90EE90}
+\definecolor{light-red}{HTML}{FFCCCB}
+\definecolor{light-yellow}{HTML}{FFFFCC}
+\definecolor{mint-green}{HTML}{98FB98}
+\definecolor{light-purple-blue}{HTML}{728FCE}
+\usepackage{hyperref}
+
+\setcounter{secnumdepth}{1}
+
+\hypersetup{%
+  colorlinks = true,%
+  urlcolor = blue, %Colour for external hyperlinks
+  linkcolor=black,%
+  citecolor=gray,%
+  bookmarksopen=true,%
+  bookmarksnumbered=true,%
+  pdfencoding=auto,%
+  psdextra,%
+  pdftitle={CV 2023},%
+  pdfauthor={Nicola Pedrocchi},%
+  pdfkeywords={},%
+  pdfsubject={}%
+}
+
+
+\newcommand{\makeauthorbold}[1]{%
+  \DeclareNameFormat{author}{%
+    \ifthenelse{\value{listcount}=1}
+    {%
+      {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\namepartfamily\addcomma\addspace\namepartgiveni}}{\namepartfamily\addcomma\addspace\namepartgiveni}}
+      %
+    }{\ifnumless{\value{listcount}}{\value{liststop}}
+        {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace\namepartfamily\addcomma\addspace\namepartgiveni}}{\addcomma\addspace\namepartfamily\addcomma\addspace\namepartgiveni}}
+        {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace\namepartfamily\addcomma\addspace\namepartgiveni\addcomma\isdot}}{\addcomma\addspace\namepartfamily\addcomma\addspace\namepartgiveni\addcomma\isdot}}%
+      }
+    \ifthenelse{\value{listcount}<\value{liststop}}
+    {\addcomma\space}{}
+  }
+}
+
+\addbibresource{./bib/bib-articles-journals-scopus.bib}
+\addbibresource{./bib/bib-articles-book-series-scopus.bib}
+\addbibresource{./bib/bib-articles-trade-journals-scopus.bib}
+\addbibresource{./bib/bib-review-journals-scopus.bib}
+\addbibresource{./bib/bib-editorial-journals-scopus.bib}
+\addbibresource{./bib/bib-conference-papers-proceedings-scopus.bib}
+\addbibresource{./bib/bib-conference-papers-book-series-scopus.bib}
+\addbibresource{./bib/bib-book-chapters-book-series-scopus.bib}
+\addbibresource{./bib/bib-book-chapters-book.bib}
+\addbibresource{./bib/bib-brevetti.bib}
+\addbibresource{./bib/bib-projects.bib}
+\addbibresource{./bib/bib-sumitted-projects.bib}
+\addbibresource{./bib/bib-partecipazione_progetti.bib}
+\addbibresource{./bib/bib-editorial-activities.bib}
+\addbibresource{./bib/bib-responsabilities.bib}
+\addbibresource{./bib/bib-tutorship.bib}
+\addbibresource{./bib/bib-talks.bib}
+\addbibresource{./bib/bib-evaluation-boards.bib}
+\addbibresource{./bib/bib-spinoff.bib}
+
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{\perdatasource{./bib/bib-articles-journals-scopus.bib}                
+       \step[fieldset=keywords, fieldvalue={, AJ  }, append]
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-articles-book-series-scopus.bib}         
+       \step[fieldset=keywords, fieldvalue={, AS  }, append] 
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-articles-trade-journals-scopus.bib}      
+       \step[fieldset=keywords, fieldvalue={, AT  }, append] }
+    \map{\perdatasource{./bib/bib-review-journals-scopus.bib}              
+       \step[fieldset=keywords, fieldvalue={, RJ  }, append]
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-editorial-journals-scopus.bib}           
+       \step[fieldset=keywords, fieldvalue={, EJ  }, append] 
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-conference-papers-proceedings-scopus.bib}
+       \step[fieldset=keywords, fieldvalue={, CP  }, append]
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-conference-papers-book-series-scopus.bib}
+       \step[fieldset=keywords, fieldvalue={, CS  }, append] 
+       \step[fieldset=url, null, append] }
+    \map{\perdatasource{./bib/bib-book-chapters-book-series-scopus.bib}    
+       \step[fieldset=keywords, fieldvalue={, BS  }, append] 
+       \step[fieldset=url, null, append]  }
+    \map{\perdatasource{./bib/bib-book-chapters-book.bib}                  
+       \step[fieldset=keywords, fieldvalue={, BB  }, append] }
+    \map{\perdatasource{./bib/bib-brevetti.bib}                            
+       \step[fieldset=keywords, fieldvalue={, PT  }, append] }
+    \map{\perdatasource{./bib/bib-projects.bib}                            
+       \step[fieldset=keywords, fieldvalue={, PC  }, append] }
+    \map{\perdatasource{./bib/bib-partecipazione_progetti.bib}             
+       \step[fieldset=keywords, fieldvalue={, PM  }, append] }
+    \map{\perdatasource{./bib/bib-editorial-activities.bib}                
+       \step[fieldset=keywords, fieldvalue={, EA  }, append] }
+    \map{\perdatasource{./bib/bib-responsabilities.bib}                    
+       \step[fieldset=keywords, fieldvalue={, RS  }, append] }
+    \map{\perdatasource{./bib/bib-tutorship.bib}                           
+       \step[fieldset=keywords, fieldvalue={, PhD }, append] }
+    \map{\perdatasource{./bib/bib-talks.bib}                               
+       \step[fieldset=keywords, fieldvalue={, IT  }, append] }
+    \map{\perdatasource{./bib/bib-evaluation-boards.bib}                   
+       \step[fieldset=keywords, fieldvalue={, EB  }, append] }
+    \map{\perdatasource{./bib/bib-spinoff.bib}                             
+       \step[fieldset=keywords, fieldvalue={, SO  }, append] }
+    \map{\perdatasource{./bib/bib-sumitted-projects.bib}                   
+       \step[fieldset=keywords, fieldvalue={, SP  }, append] }
+  }
+}
+
+\makeauthorbold{Pedrocchi}
+
+\newcolumntype{S}{>{\raggedright\arraybackslash}p{\linewidth* \real{0.11}}}
+\newcolumntype{F}{>{\raggedright\arraybackslash}p{\linewidth* \real{0.22}}}
+\newcolumntype{H}{>{\raggedright\arraybackslash}p{\linewidth* \real{0.18}}}
+
+\setlength\extrarowheight{0.5pt}
+
+\renewcommand\labelitemi{---}
+
+\DeclareFloatFont{small}{\small}% "scriptsize" is defined by floatrow, "tiny" not
+\floatsetup[table]{font=small}
+
+\title{Scientific CV}
+\author{Nicola Pedrocchi}
+\date{ }
+
+\newcounter{articles_cnt}
+\newcounter{patents_cnt}
+\newcounter{projects_cnt}
+\newcounter{group_resp_cnt}
+\newcounter{panel_cnt}
+\newcounter{representative_cnt}
+\newcounter{industrial_contracts_cnt}
+\newcounter{lab_resp_cnt}
+\newcounter{phd_cnt}
+\newcounter{total_cnt}
+
+\newcommand{\padzeroscounter}[1]       {\ifnum\value{#1}<10 0\fi\arabic{#1}}
+\newcommand{\journalarticleid}[1]      {31562CP01D1N\padzeroscounter{#1}}
+\newcommand{\projectid}[1]             {31562CT01D1N\padzeroscounter{#1}}
+\newcommand{\grouprespid}[1]           {31562CT07D1N\padzeroscounter{#1}}
+
+\newcommand{\patentid}[1]              {31562CP05D2N\padzeroscounter{#1}}
+\newcommand{\phdid}[1]                 {31562CT27D2N\padzeroscounter{#1}}
+
+\newcommand{\representativeid}[1]      {31562CT13D3N\padzeroscounter{#1}}
+\newcommand{\industrialcontractsid}[1] {31562CT19D3N\padzeroscounter{#1}}
+\newcommand{\panelid}[1]               {31562CT11D3N\padzeroscounter{#1}}
+\newcommand{\labresponsabilityid}[1]   {31562CT24D3N\padzeroscounter{#1}}
+
+\newcommand{\inputAJ}[3]{%
+  \stepcounter{total_cnt}
+  \stepcounter{#2}
+  \def\idfn{\currfiledir/papers/\string#1.tex }
+  \def\allegato{\bf #3-CNRPEOPLEID\string#1.pdf}
+  \phantomsection\addcontentsline{toc}{subsubsection}{\padzeroscounter{total_cnt}-#3-CNR ID:#1}
+  \input{\idfn}
+}
+
+\newcommand{\inputPT}[3]{%
+  \stepcounter{total_cnt}
+  \stepcounter{#2}
+  \def\idfn{\currfiledir/patents/\string#1.tex }
+  \def\allegato{\bf #3-CNRPEOPLEID\string#1.pdf}
+  \phantomsection\addcontentsline{toc}{subsubsection}{\padzeroscounter{total_cnt}-#3-CNR ID:#1}
+  \input{\idfn}
+}
+
+\newcommand{\inputAP}[3]{%
+  \stepcounter{total_cnt}
+  \stepcounter{#2}
+  \def\idfn{\currfiledir/appointments/\string#1.tex }
+  \def\allegato{\bf #3-#1.pdf}
+  \phantomsection\addcontentsline{toc}{subsubsection}{\padzeroscounter{total_cnt}-#3-CNR ID:#1 }
+  \input{\idfn}
+}
+
+\newcommand{\inputjournalarticleid}[1]     {\inputAJ{#1}{articles_cnt}{\journalarticleid{articles_cnt}}}
+\newcommand{\inputpatentid}[1]             {\inputPT{#1}{patents_cnt}{\patentid{patents_cnt}}}
+\newcommand{\inputprojectid}[1]            {\inputAP{#1}{projects_cnt}{\projectid{projects_cnt}}}
+\newcommand{\inputgrouprespid}[1]          {\inputAP{#1}{group_resp_cnt}{\grouprespid{group_resp_cnt}}}
+\newcommand{\inputpanelid}[1]              {\inputAP{#1}{panel_cnt}{\panelid{panel_cnt}}}
+\newcommand{\inputrepresentativeid}[1]     {\inputAP{#1}{representative_cnt}{\representativeid{representative_cnt}}}
+\newcommand{\inputindustrialcontractsid}[1]{\inputAP{#1}{industrial_contracts_cnt}{\industrialcontractsid{industrial_contracts_cnt}}}
+\newcommand{\inputlabresponsabilityid}[1]  {\inputAP{#1}{lab_resp_cnt}{\labresponsabilityid{lab_resp_cnt}}}
+\newcommand{\inputphdid}[1]                {\inputAP{#1}{phd_cnt}{\phdid{phd_cnt}}}
+
+\AtBeginDocument{
+  \addtocontents{toc}{\small}
+}
+
+
+% \AtBeginBibliography{
+%    \small
+% }
+
+
+\begin{document}
+
+\maketitle
+
+\setlength{\parindent}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Personal Information}
+\begin{tabularx}{\textwidth}{lX}
+\\Address: &	via A. Corti 12, 20133 Milan, Italy
+\\Department: & 	Institute of Intelligent Industrial Technologies and Systems for Advanced Manufacturing (STIIMA)
+\\Institution: &  	National Research Council of Italy (CNR)
+\\Phone: &  	+39 0223699954
+\\Mobile: & 	+393665797833
+\\Email: &  	nicola.pedrocchi@stiima.cnr.it
+\end{tabularx}
+
+\section*{Scientific Carreer}
+\begin{tabularx}{\textwidth}{rX}
+   Since 2023 & Member of the CNR-STIIMA Board\\
+              & Associate Editor, Robotics and Computer---Integrated Manufacturing, Elsevier, IF 10.14, 3rd in Robotics Category\\
+   Since 2022 & Member of the Board of Directors of the National Ph.D. School on Robotics and Intelligent Machines.\\
+   Since 2021 & \textbf{Senior Researcher}~-~CNR-STIIMA.\\
+              & \textbf{Head of the PERFORM Lab}~-~``Personal Robotics for Manufacturing'' Laboratory of CNR-STIIMA.\\
+              & \textbf{Scientific Director of the IINFORM Lab}~-~``Intelligent Industrial Robotics for Manufacturing'' Laboratory of CNR-STIIMA.\\
+   2021--2022 & Member of the Board of Directors of the National Ph.D. School of Italy on AI.\\
+   Since 2020 & \textbf{Scientific Director of the CARI Lab}~-~``Control and Automation for Industrial Robotics'', Joint Laboratory of CNR and the University of Brescia.\\
+   2018--2021 & \textbf{Researcher}~-~CNR-STIIMA.\@ Head of Robot Motion Control and Robotized Processes Laboratory.\\
+   2014--2015 & \textbf{Visiting Researcher}~-~Université de Laval, Québec City, Québec, Canada.\\
+   2011--2018 & \textbf{Researcher}~-~CNR-ITIA, Member of the Intelligent Robots and Autonomous Systems\\
+   2006--2011 & \textbf{Research Fellow}~-~CNR-ITIA, Member of the Intelligent Robots and Autonomous Systems\\
+   2007--2008 & \textbf{Post-Doc Researcher}~-~Università degli Studi di Brescia, Italy.\\
+\end{tabularx}
+   
+\section*{International IDs}
+\begin{tabularx}{\textwidth}{rX}
+Scopus Author ID	&  \href{https://www.scopus.com/authid/detail.uri\?authorId=14016736100}{14016736100}\\
+WoS Researcher ID	& \href{https://www.webofscience.com/}{B-3188-2014}\\
+Orcid ID	& \href{https://orcid.org/0000-0002-1610-001X}{0000-0002-1610-001X}\\
+LinkedIn  &	\href{https://www.linkedin.com/in/nicola-pedrocchi/}{nicola-pedrocchi} \\
+Research Gate	& \href{https://www.researchgate.net/profile/Nicola\_Pedrocchi}{Nicola Pedrocchi}  \\
+Google Scholar	& \href{https://scholar.google.com/citations?user=UpiG-f8AAAAJ\&hl=en}{Nicola Pedrocchi}\\
+\end{tabularx}
+
+\section*{Research Interest}
+\begin{description}
+   \item[Elasto-Dynamics Modelling And Control] The attempt to use industrial robots for technological and interaction tasks, i.e., robotic machining and automatic assembling, implies, on the one hand, the knowledge of the interaction force, on the other hand, the reduction of physical sensors. The research aims to define the best models with lumped parameters (both rigid and elastodynamic models) to predict the behavior of a manipulator's cups during the execution of generic trajectories. Integration of advanced models in robust/optimal adaptive controls. Furthermore, this work aims to develop a virtual force sensor to estimate the interaction force.
+   \item[Force And Impedance Control] The research focuses on force-tracking impedance controllers granting a free-overshoots contact force (mandatory performance for many critical interaction tasks such as polishing) for partially unknown interacting environments (such as leather or hard-fragile materials). The robot has to gently approach the target environment (whose position is usually not well-known) and then execute the interaction task. The research deals with free space approaching motion and succeeding contact tasks without switching from different control logics. 
+   \item[Robotized Processes And Control] Investigation on adopting industrial robots for additive and traditional technologies and processes. Laser-based direct metal deposition (LBDMD) is a promising additive manufacturing technology well suited for producing complex metal structures, low-volume manufacturing, and high-value component repair or modification. It finds broad application in the automotive, biomedical, and aerospace industries. The research focuses on optimizing path planning when redundant axes (robot + external axes) are present, and the operations are only partially constrained in Cartesian space. Furthermore, the integrated control of the robot's motion and the process may dramatically increase the results in additive and subtractive technologies. The research also investigates methodologies on virtual sensors that exploit the knowledge of hindsight robots about the process. 
+   \item[Lead-Through Programming] Human-robot cooperation is increasingly demanded in industrial applications. Many tasks require the robot to enhance the capabilities of humans, allowing them to execute onerous tasks or improve their functionalities. Besides wearable robotics, standard industrial manipulators are common solutions to empower humans. The research focuses on control approaches for assisting human operators in demanding industrial applications. The methodologies focused on the mechatronic design of new devices (up to 2015) and then on control strategies to ease the Cartesian lead through the programming of the standard collaborative robot (with fully-sensorised joints)
+   \item[Robot Kinematics Analysis And Synthesis] Research in the optimum design has taken different directions. One of those was to define the kinematic or dynamic parameters that determine the characteristics of the manipulator to justify the best design. In most of the studies underway, the possible solutions are restricted to one feasible region in which all geometrical and dynamic restrictions and the drives' power input must be met. The research aims to investigate solutions through an energy approach where redundant actuation and elastic elements in the chain achieve the optimum design in a multiple-link system.
+   \item[Motion Planning For Human-Robot Cooperation]	Step-changes in safety technologies have opened robotic cells to human workers in real industrial scenarios. However, the lack of methodologies for productive and effective motion planning and scheduling of human-robot cooperative (HRC) tasks still limits the spread of HRC systems. Standard methods fail due to the high variability of the robot execution time, which is caused by the need to modify the robot's motion to ensure continuous human safety. In this context, the research focuses on motion planning and scheduling methodology that (i) provides a set of robot trajectories for each task and (ii) optimizes, at appropriate time steps, a task plan, minimizing the cycle time through trajectory selection, task sequence, and task allocation. Statistical offline methods are deeply investigated.
+   \item[Rehabilitation Robotics] The increasing interest from the medical rehabilitation world towards robotic technologies to recover neuromotor functions has led to the development of the Rehabilitation Multi-Sensory Room (RehaMSR), a multisensory robotic platform to be used as an aid to neuromotor rehabilitation for the execution of rehabilitation exercises. This platform consists of hardware and software components coordinated by a central control system, interacting with the patient and adapting to it.
+   \item[Human-Robot Safe Interaction] Activities Development of control algorithms for collision avoidance and online rescheduling based on the estimated position of people within the robot's operating space. Development of methodologies for functional safety certification of non-certified sensor networks.
+\end{description}
+
+\section*{Publications (Source: Scopus)}
+\nocite{*}
+%heading=subbibintoc, 
+\newrefcontext[labelprefix=AJ] \printbibliography[keyword=AJ, title=Articles in Journals]
+\newrefcontext[labelprefix=AS] \printbibliography[keyword=AS, title=Articles in Book Series]
+\newrefcontext[labelprefix=AT] \printbibliography[keyword=AT, title=Articles in trade Journals]
+\newrefcontext[labelprefix=EJ] \printbibliography[keyword=EJ, title=Editorals in Journals]
+\newrefcontext[labelprefix=RJ] \printbibliography[keyword=RJ, title=Reviews in Journals]
+\newrefcontext[labelprefix=BS] \printbibliography[keyword=BS, title=Book Chapter in Book Series]
+\newrefcontext[labelprefix=BB] \printbibliography[keyword=BB, title=Book Chapter in Books]
+\newrefcontext[labelprefix=CP] \printbibliography[keyword=CP, title=Conference Papers in Conference Proceedings]
+\newrefcontext[labelprefix=CS] \printbibliography[keyword=CS, title=Conference Papers in Book Series]
+\newrefcontext[labelprefix=EA] \printbibliography[keyword=EA, title=Editorial Activities]
+
+%\newpage
+%\section*{Lista dei rimanenti Prodotti Scientifici }
+\newrefcontext[labelprefix=PT  ] \printbibliography[keyword=PT, title=Patents]
+
+%\newpage
+%\section*{Lista completa dei Titoli}
+\newrefcontext[labelprefix=PC] \printbibliography[keyword=PC, title=Project Coordination or CNR Principal Investigator]
+%\newrefcontext[labelprefix=PM] \printbibliography[keyword=PM, title=Project Member]
+%\newrefcontext[labelprefix=RS] \printbibliography[keyword=RS, title=Group and Laboratory and Scientific Leadership]
+%\newrefcontext[labelprefix=IT] \printbibliography[keyword=IT, title=Invited Talks]
+\newrefcontext[labelprefix=Ph] \printbibliography[keyword=Ph, title=Ph.D. Tutorship]
+%\newrefcontext[labelprefix=CB] \printbibliography[keyword=EB, title=Commissions and Boards]
+%\newrefcontext[labelprefix=SO] \printbibliography[keyword=SO, title=Spin-off Companies]
+%\newrefcontext[labelprefix=SP] \printbibliography[keyword=SP, title=Submitted but rejected Projects]
+
+\end{document}
