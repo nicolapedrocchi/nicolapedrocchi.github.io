@@ -4,6 +4,11 @@
       "language": "yaml",
       "scheme": "file",
       "pattern": "_config.yml"
+    },
+    {
+      "language": "markdown",
+      "scheme": "file",
+      "pattern": "_pages/about.md"
     }
   ]
 }

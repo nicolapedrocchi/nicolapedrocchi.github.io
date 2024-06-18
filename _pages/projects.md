@@ -5,6 +5,8 @@ permalink: /projects/
 author_profile: true
 ---
 
+<iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=UCBVtG5XI4R2LC_y1WAD8s8g" width="480" height="400"></iframe>
+
 <h3 class="sectionHead"><a 
  id="x1-17000"></a>Project Coordination or CNR Principal Investigator</h3>
 <!--l. 312--><p class="noindent" >
