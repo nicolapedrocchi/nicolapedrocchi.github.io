@@ -5,9 +5,6 @@ permalink: /research_interests/
 author_profile: true
 ---
 
-Research Interest
-======
-
 Motion Planning For Human-Robot Cooperation
 ------
 Step-changes in safety technologies have opened robotic cells to
