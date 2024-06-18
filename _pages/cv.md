@@ -15,12 +15,6 @@ Education
 * M.S. in Mechanical Engineering, University of Brescia, October, 28th, 2004
 
 
-Since 2023 Member of the CNR-STIIMA Board
-               Associate Editor, Robotics and Computer---Integrated Manufacturing, Elsevier, IF 10.14, 3rd in Robotics Category
-    
-
-
-
 Work experience
 ======
 * Since 2023: 
@@ -54,12 +48,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
@@ -71,3 +59,5 @@ Funded Projects
   <ul>{% for post in site.projects reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+

@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Nicola Pedrocchi"
 title_separator          : "-"
 name                     : &name "Nicola Pedrocchi"
 description              : &description "Robotics Senior Researcher"
@@ -16,7 +16,7 @@ url                      : https://nicolapedrocchi.github.io # the base hostname
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nicolapedrocchi/nicolapedrocchi.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
+# Site Author - The following controls what appears as part of the author content on the sidebar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
@@ -24,14 +24,13 @@ author:
   avatar           : "bio-photo.jpg"
   name             : "Nicola Pedrocchi, PhD"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Pasioned Robotics Research for more than 15 years, with a strong background in Motion Control and Planning. I pursue new robotic systems for Industry 5.0 and all the fields where advanced robotics solutions and AI technologies can improve dramatically the human quality of work and life."
   location         : "Milan, Italy"
   employer         : "National Council of Research (CNR)"
   uri              : # URL
   email            : "nicola.pedrocchi@cnr.it" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=UpiG-f8AAAAJ&hl=en"
   orcid            : "https://orcid.org/0000-0002-1610-001X"
   researchgate     : "https://www.researchgate.net/profile/Nicola-Pedrocchi"
@@ -43,11 +42,10 @@ author:
   facebook         : "Nicola Pedrocchi"
   linkedin         : "nicola-pedrocchi"
   twitter          : "Nicola Pedrocchi"
-  youtube          : "https://www.youtube.com/channel/UCBVtG5XI4R2LC_y1WAD8s8g"
+  youtube          : "channel/UCBVtG5XI4R2LC_y1WAD8s8g"
 
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -178,13 +176,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
-  talks:
+  Appointments:
     output: true
     permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
@@ -224,23 +221,25 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _appointments
   - scope:
       path: ""
-      type: talks
+      type: appointments
     values:
-      layout: talk
+      layout: single
       author_profile: true
       share: true
+      comment: true
+  
 
 
 # Sass/SCSS
