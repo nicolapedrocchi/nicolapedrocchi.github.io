@@ -4,7 +4,9 @@ title: "Funded Projects"
 permalink: /projects/
 author_profile: true
 ---
-<iframe src="https://www.youtube.com/embed/?listType=user_uploads&list=UCBVtG5XI4R2LC_y1WAD8s8g" width="480" height="400"></iframe>
+[Here the link to my labs YouTub Channel!](https://www.youtube.com/channel/UCBVtG5XI4R2LC_y1WAD8s8g)
+
+<iframe src="https://www.youtube.com/watch?v=2WiNfq9vNcQ&list=PLGbhl1nrnNFU9Yu4mcvbNTCzbY7Gzt6H3" width="480" height="400"></iframe>
 
 <h3 class="sectionHead"><a id="x1-17000"></a>Project Coordination or CNR Principal Investigator</h3>
 <!--l. 312-->
