@@ -16,12 +16,9 @@ author_profile: true
 {% endfor %} -->
 
 
-<h3 class="likesectionHead"><a 
- id="x1-5000"></a>Publications (Source: Scopus)</h3>
-<!--l. 295--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><a 
- id="x1-6000"></a>Articles in Journals</h3>
+Articles in Journals
+------
+
 <!--l. 295--><p class="noindent" >
    </p><dl class="thebibliography"><dt id="X0-Faroni2024" class="thebibliography">
 </dt><dd 
@@ -625,8 +622,10 @@ class="ec-lmtt-9">10.3722/cadaps.2009.</span>
 class="ec-lmtt-9">351-363</span></a>.</p></dd></dl>
 <!--l. 296--><p class="noindent" >
 </p>
-<h3 class="sectionHead"><a 
- id="x1-7000"></a>Articles in Book Series</h3>
+
+Articles in Book Series
+------
+
 <!--l. 296--><p class="noindent" >
    </p><dl class="thebibliography"><dt id="X0-Pellegrinelli2014648" class="thebibliography">
 </dt><dd 

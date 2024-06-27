@@ -1,42 +1,29 @@
 ---
 layout: archive
-title: "Research Interests"
+title: "Research Areas and Collaborations"
 permalink: /research_interests/
 author_profile: true
 ---
 
+![Active Collaborations at Jun. 2023](media/collaborations.png "Italian Collaboration Network")
+
 Motion Planning For Human-Robot Cooperation
 ------
-Step-changes in safety technologies have opened robotic cells to
-human workers in real industrial scenarios. However, the lack of
-methodologies for productive and effective motion planning and
-scheduling of human-robot cooperative (HRC) tasks still limits the
-spread of HRC systems. Standard methods fail due to the high
-variability of the robot execution time, which is caused by the need
-to modify the robot's motion to ensure continuous human safety. In
-this context, the research focuses on motion planning and scheduling
-methodology that (i) provides a set of robot trajectories for each
-task and (ii) optimizes, at appropriate time steps, a task plan,
-minimizing the cycle time through trajectory selection, task
-sequence, and task allocation. Statistical offline methods are
-deeply investigated.
 
+Step-changes in safety technologies have opened robotic cells to human workers in real industrial scenarios. However, the lack of methodologies for productive and effective motion planning and scheduling of human-robot cooperative (HRC) tasks still limits the spread of HRC systems. Standard methods fail due to the high variability of the robot execution time, which is caused by the need to modify the robot's motion to ensure continuous human safety.
+In this context, my research ambitions are multiple.
+First, to deploy better and innovative motion planners both for robot arms and mobile manipulators, able to exploit the human behavior models to increase the ergonomics and safety togheter with the robot system productivity.
+Second, to better integrate the motion planning with the task and motion planning to optimize not just locally the execution of one task, but the entire process.
 
-Physical Huma-Robot Interaction
+Physical Human-Robot Interaction
 ------
-The research focuses on force-tracking impedance controllers
-granting a free-overshoots contact force (mandatory performance for
-many critical interaction tasks such as polishing) for partially
-unknown interacting environments (such as leather or hard-fragile
-materials). The robot has to gently approach the target environment
-(whose position is usually not well-known) and then execute the
-interaction task. The research deals with free space approaching
-motion and succeeding contact tasks without switching from different
-control logics.
 
+The industry needs controllers that allow smooth and natural physical Human-Robot Interaction (pHRI) to make production scenarios more flexible and user-friendly.
+Within this context, my research have been focused over the years on multiple methodologies. Starting from the development of adaptive impedance controllers, I then moved to Role Arbitration methodologies, which are the mechanism that assigns the role of the leader to either the human or the robot. My team and I investigated deeply the adoption of the Game-Theory (GT) to model pHRI, and specifically, Cooperative Game Theory (CGT) and Non-Cooperative Game Theory (NCGT). In such a context, we also investigated how to model the human behavior and intention when interacting with the robot.
 
 Human-Robot Safe Interaction
 ------
+
 Activities Development of control algorithms for collision avoidance
 and online rescheduling based on the estimated position of people
 within the robot's operating space. Development of methodologies for
@@ -44,6 +31,7 @@ functional safety certification of non-certified sensor networks.
 
 Robotized Processes And Control
 ------
+
 Investigation on adopting industrial robots for additive and
 traditional technologies and processes. Laser-based direct metal
 deposition (LBDMD) is a promising additive manufacturing technology
@@ -61,6 +49,7 @@ hindsight robots about the process.
 
 Elasto-Dynamics Modelling And Control
 ------
+
 The attempt to use industrial robots for technological and
 interaction tasks, i.e., robotic machining and automatic assembling,
 implies, on the one hand, the knowledge of the interaction force, on
@@ -72,9 +61,9 @@ advanced models in robust/optimal adaptive controls. Furthermore,
 this work aims to develop a virtual force sensor to estimate the
 interaction force.
 
-
 Rehabilitation Robotics
 ------
+
 The increasing interest from the medical rehabilitation world
 towards robotic technologies to recover neuromotor functions has led
 to the development of the Rehabilitation Multi-Sensory Room
@@ -86,6 +75,7 @@ the patient and adapting to it.
 
 Robot Kinematics Analysis And Synthesis
 -------
+
 Research in the optimum design has taken different directions. One
 of those was to define the kinematic or dynamic parameters that
 determine the characteristics of the manipulator to justify the best
