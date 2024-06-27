@@ -5,7 +5,7 @@ permalink: /research_interests/
 author_profile: true
 ---
 
-![Active Collaborations at Jun. 2023](./images/collaborations.png "Italian Collaboration Network")
+![Active Collaborations at Jun. 2023](../images/collaborations.png "Italian Collaboration Network")
 
 Motion Planning For Human-Robot Cooperation
 ------
