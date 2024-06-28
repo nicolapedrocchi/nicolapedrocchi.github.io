@@ -5,12 +5,8 @@ permalink: /appointments/
 author_profile: true
 ---
 <!--l. 314-->
-<p class="noindent">
-</p>
 <h3 class="sectionHead"><a id="x1-19000"></a>Group and Laboratory and Scientiﬁc Leadership</h3>
 <!--l. 314-->
-<p class="noindent">
-</p>
 <dl class="thebibliography">
     <dt id="X0-R_ECOCIRC" class="thebibliography">
     </dt>
@@ -69,7 +65,7 @@ author_profile: true
             - Atto di Veriﬁca anno 2022.Spin <span class="ec-lmcsc-10x-x-90">url</span>: <a href="https://eu-robotics.net/" class="url"><span class="ec-lmtt-9">https://eu-robotics.net/</span></a>.
         </p>
     </dd>
-    <dt id="X0-R_RMC" class="thebibliography">S
+    <dt id="X0-R_RMC" class="thebibliography">
     </dt>
     <dd id="bib-168" class="thebibliography">
         <!--l. 314-->
@@ -86,15 +82,11 @@ author_profile: true
     </dd>
 </dl>
 <!--l. 315-->
-<p class="noindent">
-</p>
 
 <h3 class="sectionHead"><a id="x1-21000"></a>Commissions and Boards</h3>
 <!--l. 317-->
 <p class="noindent">
-
-</p>
-<dl class="thebibliography">
+</p><dl class="thebibliography">
     <dt id="X0-EB90" class="thebibliography">
     </dt>
     <dd id="bib-185" class="thebibliography">
@@ -215,12 +207,8 @@ author_profile: true
     </dd>
 </dl>
 <!--l. 318-->
-<p class="noindent">
-</p>
 <h3 class="sectionHead"><a id="x1-22000"></a>Spin-oﬀ Companies</h3>
 <!--l. 318-->
-<p class="noindent">
-</p>
 <dl class="thebibliography">
     <dt id="X0-SP_POLIBRIXIA" class="thebibliography">
     </dt>
