@@ -15,11 +15,10 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %} -->
 
-
 Articles in Journals
 ------
 
-<!--l. 295--><p class="noindent" >
+<p class="noindent" >
    </p><dl class="thebibliography"><dt id="X0-Faroni2024" class="thebibliography">
 </dt><dd 
 id="bib-1" class="thebibliography">
@@ -1772,3 +1771,128 @@ href="http://www.uibm.gov.it/uibm/dati/Avanzata.aspx?load=info_list_uno&id=18725
 class="ec-lmtt-9">http://www.uibm.gov.it/uibm/dati/Avanzata.aspx?load=info_list_uno&#x0026;id=1872582&#x0026;table=Invention&#x0026;#ancoraSearch</span></a>.</p></dd></dl>
 <!--l. 312--><p class="noindent" >
 </p>
+
+<!--l. 314-->
+<p class="noindent">
+</p>
+<h3 class="sectionHead"><a id="x1-20000"></a>Invited Talks</h3>
+<!--l. 315-->
+<p class="noindent">
+</p>
+<dl class="thebibliography">
+    <dt id="X0-TT_MECSPE_1" class="thebibliography">
+    </dt>
+    <dd id="bib-170" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_MECSPE_1"></a>Invited Speaker a 2018, MECSPE, Marzo, Parma, Italia, (2018). <span class="ec-lmri-9">Fiera di riferimento per automazione e</span>
+            <span class="ec-lmri-9">robotica in Italia</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_ERF_4" class="thebibliography">
+    </dt>
+    <dd id="bib-171" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_ERF_4"></a>Invited Speaker European Robotic Forum - ERF, Finlandia, (2018). <span class="ec-lmri-9">European Robotic Forum</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_UNIBO" class="thebibliography">
+    </dt>
+    <dd id="bib-172" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_UNIBO"></a>Seminario sulla robotica collaborativa, Corso di Fondamenti di Robotica, Laurea Triennale, UniBo, Prof.
+            Rocco Vertechy, (2018). <span class="ec-lmri-9">Seminario sui fondamenti e le applicazioni in ambiro di huma-robot interaction</span>.
+         </p>
+    </dd>
+    <dt id="X0-TT_MECSPE_2" class="thebibliography">
+    </dt>
+    <dd id="bib-173" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_MECSPE_2"></a>Exhibition at 2017, MECSPE, Marzo, Parma, Italia, (2017). <span class="ec-lmri-9">Fiera di riferimento per automazione e</span>
+            <span class="ec-lmri-9">robotica in Italia</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_ERF_1" class="thebibliography">
+    </dt>
+    <dd id="bib-174" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_ERF_1"></a>Invited Speaker European Robotic Forum - ERF, Edinburgo, Scotland, UK, (2017). <span class="ec-lmri-9">European Robotic</span>
+            <span class="ec-lmri-9">Forum</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_ERF_2" class="thebibliography">
+    </dt>
+    <dd id="bib-175" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_ERF_2"></a>Invited Speaker European Robotic Forum - ERF, Lubiana, Slovenia, (2016). <span class="ec-lmri-9">European Robotic Forum</span>.
+        </p>
+    </dd>
+    <dt id="X0-TT_ERF_3" class="thebibliography">
+    </dt>
+    <dd id="bib-176" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_ERF_3"></a>Invited Speaker European Robotic Forum - ERF, Rovereto, Italy, (2014). <span class="ec-lmri-9">European Robotic Forum</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_ROBOBUSSINESS_3" class="thebibliography">
+    </dt>
+    <dd id="bib-177" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_ROBOBUSSINESS_3"></a>Invited Speaker RoboBusiness EUROPE, Billund, Denmark, (2014). <span class="ec-lmri-9">European Robotic Forum</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_LAVAL" class="thebibliography">
+    </dt>
+    <dd id="bib-178" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_LAVAL"></a>Seminario su robotica collaborativa, Laval University, Quebec, Quebec (CA), Prof. Clement Gosselin,
+            (2014). <span class="ec-lmri-9">Seminario sull’utilizzo dei robot in ambito di riabilitazione robotizzata</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_SIRI_1" class="thebibliography">
+    </dt>
+    <dd id="bib-179" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_SIRI_1"></a>CORSO SIRI 2013: Generazione del moto, Brescia, 15 giugno 2013, Corso SIRI, (2013). <span class="ec-lmri-9">Presentazione</span>
+            <span class="ec-lmri-9">di risutati di progetto al corso di robotica industriale</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_UNIBS_1" class="thebibliography">
+    </dt>
+    <dd id="bib-180" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_UNIBS_1"></a>Seminario sul controllo in forza, Corso di Meccanica dei Robot, Laurea Magistrale, UniBs, Prof. Giovanni
+            Legnani, (2013). <span class="ec-lmri-9">Seminario sui fondamenti e le applicazioni del controllo in forza</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_UNIBS_2" class="thebibliography">
+    </dt>
+    <dd id="bib-181" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_UNIBS_2"></a>Seminario sul controllo in forza, Corso di Meccanica dei Robot, Laurea Magistrale, UniBs, Prof. Giovanni
+            Legnani, (2012). <span class="ec-lmri-9">Seminario sui fondamenti e le applicazioni del controllo in forza</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_UNIBS_3" class="thebibliography">
+    </dt>
+    <dd id="bib-182" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_UNIBS_3"></a>Seminario sul controllo in forza, Corso di Meccanica dei Robot, Laurea Magistrale, UniBs, Prof. Giovanni
+            Legnani, (2011). <span class="ec-lmri-9">Seminario sui fondamenti e le applicazioni del controllo in forza</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_SIRI_2" class="thebibliography">
+    </dt>
+    <dd id="bib-183" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_SIRI_2"></a>CORSO SIRI 2009: CONTROLLO IN FORZA, Torino, 10 giugno 2009, Corso SIRI, (2009). <span class="ec-lmri-9">Presentazione</span>
+            <span class="ec-lmri-9">di risutati di progetto al corso di robotica industriale</span>. 
+        </p>
+    </dd>
+    <dt id="X0-TT_SIRI_3" class="thebibliography">
+    </dt>
+    <dd id="bib-184" class="thebibliography">
+        <!--l. 315-->
+        <p class="noindent"><a id="cite.0@TT_SIRI_3"></a>CORSO SIRI 2008: CONTROLLO IN FORZA e COLLISION AVOIDANCE, Torino, 10 ottobre 2008,
+            Corso SIRI, (2008). <span class="ec-lmri-9">Presentazione di risutati di progetto al corso di robotica industriale</span>. </p>
+    </dd>
+</dl>
